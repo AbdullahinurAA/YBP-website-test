@@ -16,7 +16,8 @@ header .carousel-inner {
 }
 
 .promotions {
-  background-color: #aaa;
+  background: url(../assets/images/243.jpg) center no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
