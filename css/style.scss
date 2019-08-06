@@ -1,15 +1,13 @@
 header {
     background: url(../assets/images/Yare-17.jpg) center no-repeat;
     background-size: cover;
-    // min-height: 100vh;
-    // max-height: 100vh;
-    
+
+
 }
 
 header #carouselSlidesOnly {
-    // width: 50%;
     position: relative;
-  
+
 
 }
 
@@ -21,7 +19,8 @@ header .carousel-inner {
     width: 99%;
 }
 
-.promotions {
-    background: url(../assets/images/243.jpg) center no-repeat;
-    background-size: cover;
+.container-fluid#business {
+    background-color: #111111;
+    color: #ffffff;
+    height: 100vh;
 }
