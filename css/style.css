@@ -77,7 +77,7 @@ a[data-toggle=collapse] {
 
 #sidebar ul.components {
   padding: 20px 0;
-  border-bottom: 1px solid #47748b;
+  border-bottom: 1px solid #aaa;
 }
 
 #sidebar ul p {
@@ -98,13 +98,13 @@ a[data-toggle=collapse] {
 
 #sidebar ul li.active > a, a[aria-expanded=true] {
   color: #fff;
-  background: #6d7fcc;
+  background: #6d85cc;
 }
 
 ul ul a {
   font-size: 0.9em !important;
   padding-left: 30px !important;
-  background: #6d7fcc;
+  background: #2a5efb;
 }
 
 /*# sourceMappingURL=style.css.map */
