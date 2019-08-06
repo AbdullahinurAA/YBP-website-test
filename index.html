@@ -14,9 +14,11 @@
 
     <!-- Font-awesome -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
 
     <!-- main-stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
 
 
 </head>
@@ -25,8 +27,7 @@
 
     <!-- NAVIGATION -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navigation">
-        <a class="navbar-brand text-primary" href="#"><img
-                src="https://mall.cmsmasters.net/wp-content/uploads/2015/11/logo2.png" alt=""></a>
+        <a class="navbar-brand text-primary" href="#">YBP</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -51,7 +52,7 @@
     <header>
 
         <!-- HEADER CONTAINER -->
-        <div class="container pt-5 pb-5">
+        <div class="container pt-5 pb-5" >
             <div class="row ml-2 pb-auto">
                 <div class="col-8">
                     <!-- CAROUSEL -->
@@ -238,8 +239,65 @@
     <main>
         <!-- BUSINESSES SECTION -->
         <section>
-            <div class="container-fluid" id="business">
-                <h1 class="display-4 text-center pt-5"><strong>Businesses</strong></h1>
+            <div class="" id="business">
+                <!-- <h1 class="display-4 text-center pt-5"><strong>Businesses</strong></h1> -->
+
+                <!-- SIDEBAR -->
+                <div class="wrapper">
+                    <!-- Sidebar -->
+                    <nav id="sidebar">
+                        <div class="sidebar-header">
+                            <h3>Bootstrap Sidebar</h3>
+                        </div>
+
+                        <ul class="list-unstyled components">
+                            <li class="">
+                                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                                        <li>
+                                            <a href="#">Company 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Company 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Company 3</a>
+                                        </li>
+                                    </ul>
+                            </li>
+                            <li>
+                                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                                        <li>
+                                            <a href="#">Page 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Page 2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Page 3</a>
+                                        </li>
+                                    </ul>
+                            </li>
+                            <li>
+                        </ul>
+                    </nav>
+                    <!-- Sidebar end -->
+
+                    <!-- Page Content -->
+                    <div id="content">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <div class="">
+                                <button id="sidebarCollapse" class="btn btn-info">
+                                        <i class="fa fa-align-left"></i>
+                                    <span>Toggle Sidebar</span>
+                                </button>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- Page Content end -->
+                </div>
+                <!-- SIDEBAR END -->
             </div>
         </section>
         <!-- BUSINESSES SECTION END -->

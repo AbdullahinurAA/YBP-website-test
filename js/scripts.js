@@ -1,6 +1,16 @@
-$('.carousel').carousel({
-    interval: 2500
-  })
+// Funtion to control carousel interval
 
-const nav = document.querySelector('#navigation');
-nav.style.backgroundColor = 'green';
+$('.carousel').carousel({
+  interval: 2500
+})
+
+//**************************** */
+
+// Function to control sidebar
+
+$(document).ready(function() {
+  $('#sidebarCollapse').on('click', function () {
+    $('#sidebar').toggleClass('active');
+  })
+})
+// **************************** */
