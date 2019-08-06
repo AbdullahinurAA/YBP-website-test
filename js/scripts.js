@@ -14,3 +14,11 @@ $(document).ready(function() {
   })
 })
 // **************************** */
+
+
+$(document).ready(function () {
+  $('#company1').on('click', function () {
+      $('.company1').toggleClass('companyOne');
+      $(this).toggleClass('companyOne');
+  });
+})

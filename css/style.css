@@ -35,6 +35,10 @@ header .carousel-inner {
   width: 99%;
 }
 
+.container-fluid#business {
+  height: 100vh;
+}
+
 .wrapper {
   display: flex;
   width: 100%;
@@ -105,6 +109,14 @@ ul ul a {
   font-size: 0.9em !important;
   padding-left: 30px !important;
   background: #2a5efb;
+}
+
+.company1 {
+  display: none;
+}
+
+.companyOne {
+  display: inline;
 }
 
 /*# sourceMappingURL=style.css.map */

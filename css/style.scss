@@ -59,12 +59,9 @@ header .carousel-inner {
 
 .container-fluid#business {
 
-    // height: 100vh;
+    height: 100vh;
 }
 
-// **********************
-// Business section end
-// **********************
 
 
 
@@ -146,3 +143,15 @@ ul ul a {
     padding-left: 30px !important;
     background: #2a5efb;
 }
+
+.company1 {
+    display: none;
+}
+
+.companyOne {
+    display: inline;
+}
+
+// **********************
+// Business section end
+// **********************
